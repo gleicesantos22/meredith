@@ -22,9 +22,9 @@ const TERMINAL = '1';
 const SECRET_KEY = 'xdfHKzvmKSvUxPz91snmmjx14FpSWsU7';
 
 // Callback URLs – using your Railway domain
-const MERCHANT_MERCHANTURL = 'https://fbcid-production.up.railway.app/redsys-notification';
-const MERCHANT_URLOK = 'https://yourdomain.com/thanks.html';
-const MERCHANT_URLKO = 'https://yourdomain.com/error.html';
+const MERCHANT_MERCHANTURL = 'https://meredith-production.up.railway.app/redsys-notification';
+const MERCHANT_URLOK = 'https://mereditme.space/thanks.html';
+const MERCHANT_URLKO = 'https://mereditme.space/error.html';
 
 // Create the Redsys API with production URLs
 const { createRedirectForm, processRedirectNotification } = createRedsysAPI({
