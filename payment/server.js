@@ -75,7 +75,7 @@ const TERMINAL = process.env.TERMINAL || '1';
 // Changed to production secret key
 const SECRET_KEY = process.env.SECRET_KEY || 'xdfHKzvmKSvUxPz91snmmjx14FpSWsU7';
 
-const MERCHANT_MERCHANTURL = process.env.MERCHANT_MERCHANTURL || 'https://fbcid-production.up.railway.app/redsys-notification';
+const MERCHANT_MERCHANTURL = process.env.MERCHANT_MERCHANTURL || 'https://meredith-production.up.railway.app/redsys-notification';
 const MERCHANT_URLOK = process.env.MERCHANT_URLOK || '/thanks';
 const MERCHANT_URLKO = process.env.MERCHANT_URLKO || '/error';
 
